@@ -4,7 +4,7 @@ export default class ContactForm extends Component {
   render() {
     return (
       <div className="eight columns">
-        <form method="post" id="contactForm" name="contactForm">
+        <form method="post" action="" id="contactForm" name="contactForm">
           <fieldset>
             <div>
               <label htmlFor="contactName">
