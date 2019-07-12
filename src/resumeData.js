@@ -1,6 +1,6 @@
 let resumeData = {
   sections: ["Home", "About", "Resume", "portfolio", "Testimonials", "Contact"],
-  imagebaseurl: "https://ReactPortfolio.github.io/",
+  imagebaseurl: "https://Behzadkk.github.io/",
   name: "Behzad Kakavand",
   role: "Frontend Developer",
   linkedinId: "behzad-kakavand-71181b137",
