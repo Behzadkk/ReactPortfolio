@@ -171,5 +171,5 @@ jQuery(document).ready(function($) {
       });
       return false;
     });
-  }, 1000);
+  }, 100);
 });

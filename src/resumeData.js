@@ -1,5 +1,5 @@
 let resumeData = {
-  sections: ["Home", "About", "Resume", "portfolio", "Testimonials", "Contact"],
+  sections: ["Home", "About", "Resume", "Interests", "Testimonials", "Contact"],
   imagebaseurl: "https://Behzadkk.github.io/",
   name: "Behzad Kakavand",
   role: "Frontend Developer",
@@ -189,12 +189,19 @@ let resumeData = {
   ],
   testimonials: [
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description:
+        "He is an excellent communicator who shines in group projects, making him a delightful teammate to work with. He has real potential in becoming not just a professional, but a great developer.",
+      name: "Wendy Chan"
     },
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description:
+        "Behzad has always been willing to support, encourage and assist his peers to get the most out of every lesson and to overcome all the challenges faced.",
+      name: "Adrian Pastur"
+    },
+    {
+      description:
+        "I am confident that if he mentions his curiosity and desire to learn, his friendly attitude and motivation he will achieve all the goals he set for himself.",
+      name: "Adrian Pastur"
     }
   ]
 };
