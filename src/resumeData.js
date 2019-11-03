@@ -25,7 +25,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I am a hard-working web developer with a rational approach to problem-solving combined with a passion for innovative and fresh ideas. Good experience in JavaScript (ES6), React.js, HTML5, CSS3, Bootstrap4, node.js, RESTful APIs, SQL database, TDD and keen to learn new skills. Exceptional collaborative and interpersonal skills; dynamic team player with well-developed written and verbal communication abilities. I have permission to work and live in the UK.",
+    "I am a full stack web developer, passionate about coding. Creating something, that people interact with, use and work with to help them in their everyday life, is an art that gives me an amazing feeling. I got interested in coding when I was an experienced city designer whose innovative approach and problem-solving skills, routinely resulted in delivering high standard service. I dedicated the last two years to learn to code and gain more experience in web development.",
   address: "London",
   email: "behzad.kakavand@hotmail.com",
   phone: "07393554008",
@@ -33,7 +33,7 @@ let resumeData = {
     {
       UniversityName: "CODE YOUR FUTURE",
       specialization: "Full Stack Web Developing",
-      MonthOfPassing: "Apr",
+      MonthOfPassing: "May",
       YearOfPassing: "2019",
       Achievements:
         "During the course, I learned a technology stack that helped me build apps from a simple website to a powerful database-driven web application. The course contains core JavaScript, TDD, backend development using node.js and express, and modern frontend development with React.js."
@@ -58,12 +58,20 @@ let resumeData = {
   ],
   work: [
     {
-      CompanyName: "Personal Project",
+      CompanyName: "GLASS XRAY",
+      specialization: "Web Developer",
+      since: "Sep 2019",
+      to: "present",
+      Achievements:
+        "GlassXray is an app that I created from scratch for a doors and windows manufacturing company. The backend is an Express server with RESTful APIs and frontend is a React.js app. The admin can define new products, add photos and drawings to these products. And, they can introduce projects and correlate them to products. In this app everything is flexible, and admin can manage all pages’ content."
+    },
+    {
+      CompanyName: "ICNE",
       specialization: "React Developer",
       since: "Mar 2019",
       to: "present",
       Achievements:
-        "I developed a job market app for “Iranian Community North East” as a personal project. It is a full stack project using node.js and express to design a RESTful API at the backend where data are saved in an SQLite database. The frontend is running in React. In this app, users can register to the app and define projects. ICNE’s clients can view these projects and apply for these opportunities. This app is reactive to the user’s status."
+        "I developed a job market app for “Iranian Community North East”. It is a full stack project using node.js and express to design a RESTful API at the backend where data are saved in an SQLite database. The frontend is running in React. In this app, users can register to the app and define projects. ICNE’s clients can view these projects and apply for these opportunities. This app is reactive to the user’s status."
     },
     {
       CompanyName: "CODE YOUR FUTURE",
@@ -116,6 +124,26 @@ let resumeData = {
     }
   ],
   portfolio: [
+    {
+      name: "glassXray",
+      title: "Glass XRAY",
+      description: "Full Stack App",
+      imgurl: "images/portfolio/glassXray.png",
+      details:
+        "GlassXray is an app that I created from scratch for a doors and windows manufacturing company. The backend is an Express server with RESTful APIs and frontend is a React.js app. The admin can define new products, add photos and drawings to these products. And, they can introduce projects and correlate them to products. In this app everything is flexible, and admin can manage all pages’ content.",
+      category: ["React.js", "Node.js", "Express", "mySQL"],
+      links: "http://salemglassxray.co.uk/"
+    },
+    {
+      name: "yelpCamp",
+      title: "Yelp Camp",
+      description: "Web App",
+      imgurl: "images/portfolio/yelpCamp.png",
+      details:
+        "YelpCamp is an application where users can introduce campgrounds from all over the world, view them, like them and leave feedback. Users can add new campgrounds where they can give the location of a campground, and upload photos of it. By using Google API, this location stored in the database and is accessible at campground’s show page. Users can leave comments, rate and or like/dislike these campgrounds.",
+      category: ["Node.js", "Google API", "Express", "MongoDB", "ejs"],
+      links: "https://github.com/Behzadkk/YelpCampn"
+    },
     {
       name: "jobMarket",
       title: "Job Market",
