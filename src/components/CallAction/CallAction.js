@@ -19,8 +19,7 @@ export default class CallAction extends Component {
                 <span> Node.js </span>,
                 <span> React.js </span> and
                 <span> MongoDB </span>
-                and please{" "}
-                <span>get in touch</span>.
+                please get in touch.
               </p>
             </div>
             <div className="three columns action">

@@ -18,9 +18,9 @@ export default class Contact extends Component {
             </p>
           </div>
         </div>
-        <div className='row'>
+        {/* <div className='row'>
           <ContactForm />
-        </div>
+        </div> */}
       </section>
     );
   }
