@@ -252,7 +252,7 @@ let resumeData = {
       name: "blockchain",
       title: "Blockchain",
       description: "Ethereum Private Network",
-      imgurl: "images/portfolio/blockchain.png",
+      imgurl: "images/portfolio/Blockchain.png",
       details: [
         "As the project manager for FinBlocks, I successfully led the team in integrating the platform with an Ethereum private network. The goal was to create a secure and reliable backup for all the transactions already recorded in the event store. To achieve this, I created the private network using Solidity language to create smart contracts.",
         "The integration of the Ethereum private network provided a secure and reliable backup solution for FinBlocks. All the transactions recorded in the event store were securely backed up on the separate blockchain network. This enhanced the platform's data integrity, reliability, and security.",
