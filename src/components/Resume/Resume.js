@@ -3,6 +3,7 @@ import WorkExperience from "../WorkExperience/WorkExperience";
 import Educations from "../Educations/Educations";
 import CallAction from "../CallAction/CallAction";
 import Skills from "../Skills/Skills";
+import Courses from "../Courses/Courses";
 
 export default class Resume extends Component {
   render() {
@@ -12,6 +13,8 @@ export default class Resume extends Component {
         <WorkExperience resumeData={resumeData} />
         <CallAction />
         <Educations resumeData={resumeData} />
+        <Courses resumeData={resumeData} />
+        <CallAction />
         <Skills resumeData={resumeData} />
       </section>
     );

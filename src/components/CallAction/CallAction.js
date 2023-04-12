@@ -12,12 +12,14 @@ export default class CallAction extends Component {
             </div>
             <div className="seven columns">
               <h2>
-                <a href="#contact">Looking For A Frontend Developer?</a>
+                <a href="#contact">Looking For A Software Engineer?</a>
               </h2>
               <p>
-                If you are looking for a frontend developer, experienced in
-                <span> React.js </span>
-                and keen on learning new technologies please{" "}
+                If you are looking for a Software Engineer, experienced in
+                <span> Node.js </span>,
+                <span> React.js </span> and
+                <span> MongoDB </span>
+                and please{" "}
                 <span>get in touch</span>.
               </p>
             </div>

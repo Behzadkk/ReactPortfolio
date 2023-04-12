@@ -15,7 +15,9 @@ export default class PortfoModal extends Component {
                 />
                 <div className='description-box'>
                   <h4>{item.title}</h4>
-                  <p>{item.details}</p>
+                  <div>{item.details.map((item, i) => (
+                    <p key={i}>{item}</p>
+                  ))}</div>
                   <span className='categories'>
                     <i className='fa fa-tag' />
                     {item.category.join(", ")}

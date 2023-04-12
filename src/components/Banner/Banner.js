@@ -8,7 +8,7 @@ export default class Banner extends Component {
         <div className="banner-text">
           <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
           <h3>
-            I am a {resumeData.role}. {resumeData.roleDescription} Let's{" "}
+            {resumeData.roleDescription} Let's{" "}
             <a className="smoothscroll" href="#about">
               start scrolling
             </a>{" "}
